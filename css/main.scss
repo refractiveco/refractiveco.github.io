@@ -51,7 +51,18 @@ $on-laptop:        800px;
     }
 }
 
-
+@include media-query($on-palm) {
+	.small-button {
+		margin: 10px 0 !important;
+		padding: 10px 15px !important;
+		width: 260px !important;
+		float: none !important;
+	}
+	
+	.project-images img {
+		max-width: 290px !important;
+	}
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

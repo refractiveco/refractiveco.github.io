@@ -71,6 +71,11 @@ header {
 	transition: background 0.2s ease-in-out;
 }
 
+.big-button i {
+	position:relative;
+	top: 1px;
+}
+
 .small-button {
 	background: $light-blue;
     border-radius: 7px;

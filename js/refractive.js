@@ -15,4 +15,10 @@ $(function() {
 	$('.site-nav .menu-icon').click(function() {
 		$('#mobile-menu').toggle();
 	});
+	
+	$('.projects-link').click(function() {
+		$('html, body').animate({
+          scrollTop: $('#projects').offset().top
+        }, 1000);
+	});
 });
