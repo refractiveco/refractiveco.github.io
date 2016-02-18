@@ -11,4 +11,8 @@ $(function() {
 			// Animation complete.
 		});
 	}, 1000);
+	
+	$('.site-nav .menu-icon').click(function() {
+		$('#mobile-menu').toggle();
+	});
 });

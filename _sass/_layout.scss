@@ -22,6 +22,21 @@
     }
 }
 
+#mobile-menu {
+	display: none;
+}
+
+#mobile-menu a {
+	display: block;
+	padding: 10px;
+}
+
+#mobile-menu a:hover,
+#mobile-menu a:active {
+	background: $electric-blue;
+	text-decoration: none;
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
@@ -75,9 +90,8 @@
             display: none;
         }
 
-        &:hover .trigger {
+        &:hover + #mobile-menu {
             display: block;
-            padding-bottom: 5px;
         }
 
         .page-link {
