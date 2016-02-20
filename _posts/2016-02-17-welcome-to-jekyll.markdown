@@ -12,5 +12,5 @@ In a nunc eu ante consequat cursus id sed justo. Duis a cursus nunc. Fusce sagit
 
 ![Alt text](/img/projects/project-placeholder.jpg)
 
-
+Integer vel orci lacinia, lacinia libero eu, ultricies libero. Quisque mattis magna eget velit ornare eleifend. In posuere at massa sed efficitur. Ut gravida a eros vitae ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce imperdiet elementum augue ac malesuada. Curabitur gravida leo lectus, eu maximus tellus facilisis eget. Maecenas mattis odio in nibh tempus, at molestie turpis scelerisque.
 
