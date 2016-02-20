@@ -62,6 +62,11 @@ $on-laptop:        800px;
 	.project-images img {
 		max-width: 100% !important;
 	}
+	
+	.post-list li {
+		width: 100% !important;
+		margin: 0 !important;
+	}
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)

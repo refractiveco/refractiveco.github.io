@@ -134,3 +134,33 @@ header {
 	font-weight: 200;
 }
 
+.post-list li {
+	width: 32%;
+	display: inline-block;
+	margin: 0 1% 1% 0;
+	vertical-align: top;
+}
+
+.post-list li img {
+	width: 100%;
+}
+
+.post-excerpt {
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.post-link h2 {
+	margin: 0;
+}
+
+.post-link:hover {
+	text-decoration: none;
+}
+
+.post-single .post-header,
+.post-single .post-content {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}

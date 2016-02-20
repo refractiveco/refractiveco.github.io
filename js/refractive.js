@@ -21,4 +21,13 @@ $(function() {
           scrollTop: $('#projects').offset().top
         }, 1000);
 	});
+	
+	
+	var maxHeight = 0;
+
+	$(".page-list li").each(function(){
+	   if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
+	});
+
+	$(".page-list li").height(maxHeight);
 });
