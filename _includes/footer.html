@@ -23,9 +23,15 @@
           </li>
           {% endif %}
 
-          {% if site.twitter_username %}
+          {% if site.twitter_username_ref %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            {% include icon-twitter.html username=site.twitter_username_ref %}
+          </li>
+          {% endif %}
+          
+          {% if site.twitter_username_rd %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username_rd %}
           </li>
           {% endif %}
         </ul>

@@ -106,6 +106,15 @@ header {
 	transition: background 0.2s ease-in-out;
 }
 
+.small-button-repo {
+	background: #aaa;
+	margin: 0 0 0 10px;
+}
+
+.small-button-repo:hover {
+	background: #999;
+}
+
 .post-header {
 	background: none;
 }

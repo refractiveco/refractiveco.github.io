@@ -9,11 +9,12 @@
 title: refractive
 email: hello@refractive.co
 description: > # this means to ignore newlines until "baseurl:"
-  A studio practice for creative computation and experimental web experiences by Rob Dunne; a Research Software Engineer, Designer, and Developer practicing in Manchester, UK.
+  A studio practice for creative computation and experimental web experiences by Rob Dunne; a Research Software Engineer and UI Designer practicing in Manchester, UK.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://refractive.co" # the base hostname & protocol for your site
-twitter_username: refractiveco
+twitter_username_ref: refractiveco
+twitter_username_rd: robdunne
 github_username:  refractiveco
 
 # Build settings
