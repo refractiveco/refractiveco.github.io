@@ -1,0 +1,65 @@
+html {
+  background: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  padding: 10px 0;
+}
+
+header strong,
+header em,
+header span {
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.header-content {
+
+}
+
+.header-content .button {
+  margin: 20% auto;
+  display: block;
+  width: 300px;
+}
+
+.in-page-logo {
+  height: 30px;
+  margin: 3px 10px 0 0;
+}
+
+.twitter-mention-button {
+  /*float: right;*/
+}
+
+.main-content {
+  margin: 30px 0;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px dotted #ddd;
+  margin: 20px 0;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 0;
+}
